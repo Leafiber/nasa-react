@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="app">
         <Route component={Home} path="/" exact />
         <Route component={NasaPhoto} path="/nasaphoto" />
       </div>
@@ -16,3 +16,13 @@ function App() {
 }
 
 export default App;
+
+
+/*
+  Steps to remember for package.json/pushing to github:
+    - npm install gh-pages
+    - git remote add origin repo_url
+    - add "homepage": url
+    - add "predeploy": "npm run build" => in scripts
+    - add "deploy": "gh-pages - build" => in scritps   
+  */
