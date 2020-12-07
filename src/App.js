@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Route component={Home} path="/" exact />
+        <Route component={Home} path="/nasa-react/" exact />
         <Route component={NasaPhoto} path="/nasaphoto" />
       </div>
     </BrowserRouter>
@@ -24,5 +25,9 @@ export default App;
     - git remote add origin repo_url
     - add "homepage": url
     - add "predeploy": "npm run build" => in scripts
-    - add "deploy": "gh-pages - build" => in scritps   
+    - add "deploy": "gh-pages - build" => in scritps  
+    
+    When routing to hosting site; make sure you have the appropriate route components.
+      - Example: 
+          for url: https://leafiber.github.io/nasa-react/ <= make sure you add <Route component={Home} path="/nasa-react/" />
   */
