@@ -27,7 +27,7 @@ body {
 }
 
 .link:hover {
-  color: #f59494;
+  color: #fabbbb;
   transform: scale(1.1);
 }
 
@@ -82,7 +82,7 @@ body {
 
 .home-link {
   font-size: 40px;
-  background: #0e5500;
+  background: #FC3D21;
   display: inline-block;
   padding: 40px 80px;
   color: #fff;
@@ -94,5 +94,5 @@ body {
 
 .home-link:hover {
   border-radius: 5px;
-  background: #000000;
+  background: #0B3D91;
 }
