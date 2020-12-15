@@ -100,7 +100,7 @@ body {
 
 .home-link {
   font-size: 40px;
-  background: #FC3D21;
+  background: #fc3e21ab;
   display: inline-block;
   padding: 40px 80px;
   color: #fff;
@@ -113,7 +113,7 @@ body {
 
 .home-link:hover {
   border-radius: 50px;
-  background: #0B3D91;
+  background: #0b3c91ab;
 }
 
 @keyframes pulse {
