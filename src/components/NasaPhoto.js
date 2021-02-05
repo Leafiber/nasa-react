@@ -41,7 +41,7 @@ export default function NasaPhoto() {
                     className="photo"
                 />
             )}
-                <div>
+                <div> 
                     <h1>{photoData.title}</h1>
                     <p className="date">{photoData.date}</p>
                     <p className="explanation">{photoData.explanation}</p>
